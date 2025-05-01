@@ -95,7 +95,7 @@ fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-1.0 a fro:Member ;
 
 fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-2.0 a fro:Member ;
     rdfs:label "2.0" ;
-	fbo:about fbo:FireCompartment,
+	fbo:about fbo:FireCompartment;
     fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-2.0" ;
     fro:hasOriginalText "At each point of a part of a floor of a cell function or ancillary use function intended for persons, an escape route begins that leads to another fire compartment, whether or not via an outdoor space."@en,
         "Op elk punt van een voor personen bestemd gedeelte van een vloer van een celfunctie of van een nevengebruiksfunctie daarvan begint een vluchtroute die, al dan niet via een buitenruimte, leidt naar een ander brandcompartiment."@nl .
