@@ -1,0 +1,113 @@
+@prefix fbr: <http://www.FireBIM.org/regulations#> .
+@prefix fro: <http://www.FireBIM.org/ontologies/fro#> .
+@prefix fbo: <http://www.FireBIM.org/ontologies/fbo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+fbr:NL-RO a fro:Authority ;
+    rdfs:label "Rijksoverheid"@nl ;
+    fro:country fbr:NL ;
+    fro:hasDocument fbr:NL-RO-OmW ;
+    fro:hasID "NL-RO" .
+
+fbr:NL-RO-OmW a fro:Document ;
+    rdfs:label "Omgevingswet"@nl ;
+    fro:hasID "NL-RO-OmW" ;
+    fro:hasSubdivision fbr:NL-RO-OmW-BBL .
+
+fbr:NL-RO-OmW-BBL a fro:Document ;
+    rdfs:label "Besluit bouwwerken leefomgeving"@nl ;
+    fro:hasChapter fbr:NL-RO-OmW-BBL-4,
+        fbr:NL-RO-OmW-BBL-6 ;
+    fro:hasID "NL-RO-OmW-BBL" .
+
+fbr:NL-RO-OmW-BBL-4 a fro:Chapter ;
+    rdfs:label "Nieuwbouw"@nl ;
+    fro:hasID "NL-RO-OmW-BBL-4" ;
+    fro:hasReference <https://wetten.overheid.nl/BWBR0041297/2024-01-01#Hoofdstuk4> ;
+    fro:hasSection fbr:NL-RO-OmW-BBL-4-4.2,
+        fbr:NL-RO-OmW-BBL-4-4.7 .
+
+fbr:NL-RO-OmW-BBL-4-4.2 a fro:Section ;
+    rdfs:label "Veiligheid"@nl ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2" ;
+    fro:hasParagraph fbr:NL-RO-OmW-BBL-4-4.2-4.2.10,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.11,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.12,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.13,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.14,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.2,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.3,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.4,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.5,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.6,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.7,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.8,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.9 ;
+    fro:hasReference <https://wetten.overheid.nl/BWBR0041297/2024-01-01#Hoofdstuk4_Afdeling4.2> .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10 a fro:Paragraph ;
+    rdfs:label "Vluchtroutes: verloop"@nl ;
+    fro:hasArticle fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.64,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.66,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.67,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.68,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.69,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.70,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.71,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.72 ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10" ;
+    fro:hasReference <https://wetten.overheid.nl/BWBR0041297/2024-01-01#Hoofdstuk4_Afdeling4.2_Paragraaf4.2.10> .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.64 a fro:Article ;
+    rdfs:label "aansturingsartikel"@nl ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.64" ;
+    fro:hasMember fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.64-1.0,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.64-2.0 ;
+    fro:hasReference <https://wetten.overheid.nl/BWBR0041297/2024-01-01#Hoofdstuk4_Afdeling4.2_Paragraaf4.2.10_Artikel4.64> .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.64-1.0 a fro:Member ;
+    rdfs:label "1.0" ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.64-1.0" ;
+    fro:hasOriginalText "A structure has escape routes such that a safe place can be reached in the event of fire."@en,
+        "Een bouwwerk heeft zodanige vluchtroutes dat bij brand een veilige plaats kan worden bereikt."@nl .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.64-2.0 a fro:Member ;
+    rdfs:label "2.0" ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.64-2.0" ;
+    fro:hasOriginalText "If rules have been designated for a user function in table 4.64, the first paragraph is met for that user function by compliance with those rules."@en,
+        "Als voor een gebruiksfunctie in tabel 4.64 regels zijn aangewezen, wordt voor die gebruiksfunctie aan het eerste lid voldaan door naleving van die regels."@nl .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65 a fro:Article ;
+    rdfs:label "vluchtroute"@nl ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.65" ;
+    fro:hasMember fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-1.0,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-2.0,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-3.0,
+        fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-4.0 ;
+    fro:hasReference <https://wetten.overheid.nl/BWBR0041297/2024-01-01#Hoofdstuk4_Afdeling4.2_Paragraaf4.2.10_Artikel4.65> .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-1.0 a fro:Member ;
+    rdfs:label "1.0" ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-1.0" ;
+    fro:hasOriginalText "At each point of a section of a floor intended for persons, an escape route begins that leads to the adjacent area and from there to the public road."@en,
+        "Op elk punt van een voor personen bestemd gedeelte van een vloer begint een vluchtroute die leidt naar het aansluitende terrein en vandaar naar de openbare weg."@nl .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-2.0 a fro:Member ;
+    rdfs:label "2.0" ;
+	fbo:about fbo:FireCompartment;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-2.0" ;
+    fro:hasOriginalText "At each point of a part of a floor of a cell function or ancillary use function intended for persons, an escape route begins that leads to another fire compartment, whether or not via an outdoor space."@en,
+        "Op elk punt van een voor personen bestemd gedeelte van een vloer van een celfunctie of van een nevengebruiksfunctie daarvan begint een vluchtroute die, al dan niet via een buitenruimte, leidt naar een ander brandcompartiment."@nl .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-3.0 a fro:Member ;
+    rdfs:label "3.0" ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-3.0" ;
+    fro:hasOriginalText "At each point on a roadway, an escape route begins that leads to the adjacent site and from there to the public road outside the road tunnel."@en,
+        "Op elk punt van een rijbaan begint een vluchtroute die leidt naar het aansluitende terrein en vandaar naar de buiten de wegtunnel gelegen openbare weg."@nl .
+
+fbr:NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-4.0 a fro:Member ;
+    rdfs:label "4.0" ;
+    fro:hasID "NL-RO-OmW-BBL-4-4.2-4.2.10-4.65-4.0" ;
+    fro:hasOriginalText "Depending on its purpose and size, a structure other than a building has sufficient escape routes designed in such a way that escape can be done effectively and safely in the event of fire."@en,
+        "Een bouwwerk geen gebouw zijnde heeft afhankelijk van zijn bestemming en grootte, voldoende en zodanig ingerichte vluchtroutes dat bij brand op doeltreffende en veilige wijze kan worden gevlucht."@nl .
